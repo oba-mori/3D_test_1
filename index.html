@@ -2,20 +2,23 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>球体をWebARで表示</title>
+    <title>箱(中)をWebARで表示</title>
   </head>
   <body>
   <script 
       type="module"
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+      src="./model-viewer_code.js"
+      >
+          //  src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"   //
+
 
   </script>
 
     <model-viewer  
     ar
     alt="sphere"
-    src="sphere.glb" 
-    ios-src=".usdz" 
+    src="cube_medium.glb" 
+    ios-src="cube_medium.usdz" 
 
     style="width:800px;height:1000px;"                  
 
